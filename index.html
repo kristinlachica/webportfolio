@@ -13,7 +13,7 @@
 	<body>
 
 		<!-- Navbar Start -->
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark positioning fixed-top">
 			  <a class="navbar-brand" href="#">Home</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -46,34 +46,34 @@
 					<section id="landing">
 						<div class="bg-secondary min-vh-100 text-light p-3 p-md-5">
 							
-							<img src="./images/profile-image.png" width="200" class="mt-3 mt-md-0 rounded-circle img-fluid">
+							<img src="./images/profile-image.png" width="200" class="mt-5 mt-md-5 rounded-circle img-fluid">
 
 							<h1 class="mt-2">Kristin Lachica</h1>
 							<h3 class="mt-2">Full-Stack Developer</h3>
 							<div class="text-gray mt-3">
-								<p>
-									Hi! My name is Kristin, an aspiring full-stack web developer. I am a graduate of Culinary Arts and Hotel Management and B.S. in Medical Technology. I believe that having experience in different career industries is an attribute in Web Development.
+								<p class="profile-intro">
+									Hi! My name is Kristin, an aspiring full-stack web developer, currently training in Zuitt - Coding Bootcamp. I am a graduate of Culinary Arts and Hotel Management and B.S. in Medical Technology. I believe that having experience in different career industries is an attribute in Web Development.
 								</p>
 							</div>
-							<div class="container py-5">
+							<div class="about-me container py-5">
 							    <div class="row">
 							        <div class="col-lg-4 col-md-6">
 							            <div class="text-center border p-4 m-3">
-							                <h3>Hobbies</h3>
-							                <p>I love to cook and watch Korean-dramas.</p>
+							                <h4>Hobbies</h4>
+							                <p>I love cooking, listening to music, playing badminton and traveling.</p>
 							            </div>
 							        </div>
 							
 							        <div class="col-lg-4 col-md-6">
 							            <div class="text-center border p-4 m-3">
-							                <h3>Interests</h3>
-							                <p>Music and Food.</p>
+							                <h4>Interests</h4>
+							                <p>Culinary arts, nature and trail parks. </p>
 							            </div>
 							        </div>
 							
 							        <div class="col-lg-4 col-md-12">
 							            <div class="text-center border p-4 m-3">
-							                <h3>Experience</h3>
+							                <h4>Experience</h4>
 							                <p>Medical - Business Management</p>
 							                <p>Hotel and Restaurant - Chef (Line Cook)</p>
 							                <p>IT Industry - Full-Stack Developer</p>
@@ -93,7 +93,8 @@
 						<div class="card bg-dark col-md-4 mb-xl-0 col-12">
 						  <div class="card-body">
 						  	<img src="./images/s07-discussion.png" class="card-img-top" alt="...">
-						    <h5 class="card-title mt-3">CSS Introduction</h5>
+						    <h5 class="card-title mt-3">CSS Introduction and CSS Selectors</h5>
+						    <p>As part of the CSS Rule, CSS Seletors tell the browser which HTML elements are selected and have CSS property values inside applied to them.</p>
 			   			 <a href="./assets/project1-s07/index.html" class="card-link">Link To Project</a>
 						  </div>
 						</div>
@@ -104,6 +105,7 @@
 						  <div class="card-body">
 						  	<img src="./images/s10-activity.png" class="card-img-top" alt="...">
 						    <h5 class="card-title mt-3">CSS Styling Properties and Positioning</h5>
+						    <p>The position property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky). The default value is static.</p>
 			   			 <a href="./assets/project2-s10/index.html" class="card-link">Link To Project</a>
 						  </div>
 						</div>
@@ -114,6 +116,7 @@
 						  <div class="card-body">
 						  	<img src="./images/s14-activity.png" class="card-img-top" alt="...">
 						    <h5 class="card-title mt-3">Bootstrap - Layout & Best Practice</h5>
+						    <p>Bootstrap front-end framework integration to make web development easier.</p>
 			   			 <a href="./assets/project3-s14/activity-template.html" class="card-link">Link To Project</a>
 						  </div>
 						</div>
@@ -152,6 +155,7 @@
 
 		<!-- Contact Start -->
 		<section id="contact">
+		
 			<h2 class="mt-3">Contact</h2>
 				<form class="container">
 					  <div class="form-group">
@@ -194,12 +198,14 @@
 				</form>
 		</section>         
 		<!-- Contact End -->
-
+		
+		<a href="#top">Back to Top</a> 
+				
 		<!-- Footer -->
         <footer class="bg-dark text-white d-flex gap-43 justify-content-center p-3">
-            <div>&copy;  2023 Kristin Lachica </div>
+            <div class="mr-3">&copy;  2023 Kristin Lachica </div>
             <div>|</div>
-            <div>All rights reserved.</div>
+            <div class="ml-3">All rights reserved.</div>
         </footer>
 
 		<!-- JS Bootstrap -->
