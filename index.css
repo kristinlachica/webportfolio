@@ -1,5 +1,5 @@
-* {
-	font-family: 'Lato', sans-serif;
+/** {
+	font-family: '"PT Sans', sans-serif;
 }
 
 h1 {
@@ -36,4 +36,90 @@ form {
 footer {
 	letter-spacing: 2px;
 	font-size: 18px;
+}*/
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand {
+    color: #fff; /* White text color */
+}
+
+.nav-link {
+    color: #fff; /* White text color */
+}
+
+/* Landing Section Styles */
+#landing {
+    padding: 100px 0;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.profile-intro {
+    font-size: 1.25rem;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 100px 0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-link {
+    color: #007bff; /* Blue link color */
+}
+
+/* Tools Section Styles */
+#tools {
+    padding: 100px 0;
+}
+
+#other-tools img {
+    width: 120px; /* Adjust the width of tool logos */
+    margin: 10px; /* Add margin between logos */
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 100px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    /* Add more media query styles as needed */
 }
